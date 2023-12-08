@@ -423,6 +423,7 @@ textarea:focus {
         box-shadow: 1px 0px 8px 8px rgb(74, 74, 167);
         padding: 15px;
                 margin: auto;
+        margin-right:5px;
 
     }
 
