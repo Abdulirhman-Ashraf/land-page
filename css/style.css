@@ -411,7 +411,7 @@ textarea:focus {
     }
 
     .home .container {
-        width: 400px;
+        width: 360px;
         font-size: 10px;
         margin: auto;
 
@@ -451,7 +451,7 @@ textarea:focus {
         background-color: #484872ae;
     }
     .features .container {
-        width: 400px;
+        width: 360px;
         height: fit-content;
         font-size: 10px;
         margin: auto;
@@ -485,7 +485,7 @@ textarea:focus {
     /* start download section */
 
     .download .container {
-        width: 400px;
+        width: 360px;
         height: fit-content;
         font-size: 15px;
         padding-bottom: 30px;
@@ -508,6 +508,8 @@ textarea:focus {
     }
     .download .container .number-p{
         color:#484872ae ;
+            font-size: 50px;
+
     }
     .download .container .last-p{
         font-size: 15px;
@@ -531,7 +533,7 @@ textarea:focus {
     background-color: #393963ee;
 }
     .contact .container {
-        width: 400px;
+        width: 360px;
         font-size: 10px;
         margin: auto;
     }
