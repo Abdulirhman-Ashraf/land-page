@@ -414,6 +414,8 @@ textarea:focus {
         width: 360px;
         font-size: 10px;
         margin: auto;
+            padding-left: 10px;
+
 
     }
 
