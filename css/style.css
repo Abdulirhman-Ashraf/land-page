@@ -1,0 +1,548 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* start of variables */
+
+
+/* end of variables */
+
+/* start of home section */
+.home {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.086), rgba(0, 0, 255, 0.4)), url("../imgs/homeSection.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+/* end of home section */
+
+/* start of home container */
+.home .container {
+    text-align: center;
+    font-size: 20px;
+    width: 1280px;
+    height: 900px;
+    padding-left: 20px;
+    margin: auto auto;
+    /* color: rgba(255, 255, 255, 0.658); */
+    letter-spacing: 2px;
+    color: white;
+}
+
+/* end of home container */
+
+
+
+
+/* start of navbar */
+nav {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.132));
+    box-shadow:0px 0px 10px 10px rgb(45, 45, 156);
+    padding: 30px;
+
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+nav li {
+    perspective: 200px;
+
+}
+
+nav a {
+    color: rgba(255, 255, 255, 0.597);
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 3px;
+    transition: .3s linear all;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav a:hover {
+    display: inline-block;
+    transform: scale(1.4, 1.4);
+}
+
+/* end of navbar */
+
+/* start of home section text  */
+.home-text {
+    margin-top: 140px;
+}
+
+.home h1 i {
+    margin: 30px;
+    font-size: 50px;
+}
+
+.home h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.home p {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+/* end of home section text  */
+
+/* start of home section button */
+
+.home-button button {
+    background-color: rgba(240, 255, 255, 0.653);
+    border: none;
+    border-bottom: black 3px solid;
+    padding: 13px 40px;
+    margin-right: 15px;
+    border-radius: 5px;
+    transition: .3s all linear;
+}
+
+.home-button button:hover {
+    color: rgba(255, 255, 255, 0.597);
+    transform: scale(1.1, 1.1);
+}
+
+/* end of home section button */
+
+/* start of features */
+.features {
+    background-color: #010163ee;
+}
+
+.features .container {
+    margin: auto;
+    width: 1280px;
+    height: 700px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+.features .container h2 {
+    font-size: 40px;
+    padding: 50px;
+    position: relative;
+}
+
+.features .container h2::before {
+    content: "";
+    width: 20px;
+    height: 3px;
+    border-bottom: dotted 3px #ffffffa8;
+    position: absolute;
+    right: 530px;
+    top: 72px;
+}
+
+.features .container h2::after {
+    content: "";
+    width: 20px;
+    height: 3px;
+    border-bottom: dotted 3px #ffffffa8;
+    position: absolute;
+    right: 730px;
+    top: 70px;
+}
+
+.cards {
+
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.card {
+    outline: 2px rgba(255, 255, 255, 0.554) solid;
+    padding: 60px;
+    color: #ffffffa8;
+    transition: .3s all linear;
+    perspective: 400px;
+
+}
+
+.card:hover {
+    color: #010163ee;
+    background-color: rgba(255, 255, 255, 0.658);
+
+    transform: scale(1.1, 1.1);
+}
+
+.card i {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+/* end of features */
+
+/* start of Download Section */
+
+.download {
+
+    background-color: #b4b3b3a7;
+
+
+}
+
+.download .container {
+    text-align: center;
+    font-size: 20px;
+    width: 1280px;
+    height: 600px;
+    padding-left: 20px;
+    margin: auto auto;
+    color: #010163ee;
+    letter-spacing: 2px;
+}
+
+.download .container h2 {
+    font-size: 40px;
+    padding: 50px;
+    position: relative;
+}
+
+.download .container h2::before {
+    content: "";
+    width: 20px;
+    height: 3px;
+    border-bottom: dotted 3px #010163ee;
+    position: absolute;
+    right: 500px;
+    top: 72px;
+}
+
+.download .container h2::after {
+    content: "";
+    width: 20px;
+    height: 3px;
+    border-bottom: dotted 3px#010163ee;
+    position: absolute;
+    right: 740px;
+    top: 70px;
+}
+
+.text-p {
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.number-p {
+    font-size: 70px;
+    padding-bottom: 30px;
+
+}
+
+.last-p {
+    font-weight: 500;
+
+    padding-bottom: 40px;
+}
+
+.download a button {
+    background-color: #010163c1;
+    padding: 15px 40px;
+    outline: none;
+    border-bottom: solid rgba(0, 0, 0) 5px;
+    box-shadow: black 0 0 5px 3px;
+    font-size: 20px;
+    color: white;
+    transition: .1s linear all;
+}
+
+.download a button:hover {
+    transform: scale(0.9, 0.9);
+}
+
+.download a button i {
+    color: rgb(8, 119, 8);
+}
+
+/* end of Download Section */
+
+
+/* start of contact section */
+
+.contact {
+    background-color: #010163ee;
+}
+
+
+.contact .container {
+    width: 1280;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #ffffffa8;
+}
+
+.contact h2 {
+    font-size: 40px;
+    padding: 50px;
+position: relative;
+}
+
+
+/* .contact h2::before{
+    content: "" ;
+    width: 20px;
+    height: 3px;
+border-bottom:dotted 3px #ffffffa8;    
+position: absolute;
+    right: 500px;
+    top :72px;
+ }
+ .contact h2::after{
+    content: "" ;
+    width: 20px;
+    height: 3px;
+border-bottom:dotted 3px #ffffffa8;    
+position: absolute;
+    right: 740px;
+    top :70px;
+ } */
+.contact .container p {
+    padding: 20px;
+}
+
+
+/* start of contact form */
+
+input {
+    padding: 10px 40px;
+    margin: 20px 0;
+    background-color: #01016301;
+    border: none;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    caret-color: rgba(255, 255, 255, 0.658);
+    outline: none;
+}
+
+input:focus {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.39);
+
+}
+
+textarea {
+    background-color: #01016301;
+    border: none;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    caret-color: rgba(255, 255, 255, 0.658);
+    outline: none;
+}
+
+textarea:focus {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.338);
+
+}
+
+.send input {
+    color: rgba(255, 255, 255, 0.658);
+    padding: 5px 40px;
+    background-color: #010163d0;
+    transition: .1s all linear;
+}
+.send input:hover{
+    transform: scale(0.9 , 0.9);
+}
+
+/* end of contact form */
+
+/* start of media-icons */
+.contact .container .media-icons a {
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+}
+
+#facebook {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+
+}
+
+#youtube {
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+}
+
+#twitter {
+    background-color: none;
+    color: white;
+}
+
+#instagram {
+    background-color: white;
+    color:rgb(188, 107, 107);
+    border-radius: 4px;
+
+}
+
+/* end of media-icons */
+
+
+/* end of contact section */
+
+/* start media mobile */
+
+@media (min-width:480px) and (max-device-width: 640px) 
+                     {
+
+    /* start home section */
+    .home {
+        background-image: linear-gradient(rgba(0, 0, 255, 0.228), rgba(0, 0, 255, 0.068)), url("../imgs/Samsung-Phone-Wallpaper-Download-4K-Wallpapers-for-Samsung-Devices.-360x640.jpeg");
+    }
+
+    .home .container {
+        width: 360px;
+        font-size: 10px;
+        margin: auto;
+
+    }
+
+    .home nav {
+        box-shadow: 1px 0px 8px 8px rgb(74, 74, 167);
+        padding: 15px;
+    }
+
+    nav a:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+    .home-text h2 {
+        font-size: 25px;
+
+    }
+
+    .home-text p {
+        font-size: 14px;
+    }
+
+    .home-button {
+        display: flex;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+    }
+
+
+
+    /* end home section */
+
+    /* start features section */
+    .features{
+        background-color: #484872ae;
+    }
+    .features .container {
+        width: 360px;
+        height: fit-content;
+        font-size: 10px;
+        margin: auto;
+    }
+
+    .features .container h2::before {
+        top: 70px;
+        left: 65px;
+    }
+
+    .features .container h2::after {
+        top: 70px;
+        right: 65px;
+    }
+
+    .cards {
+        display: block;
+    }
+
+    .card { 
+        font-size: 15px;
+        margin-bottom: 20px;
+        transition: .2s;
+    }
+    .card:hover{
+        color: #484872ae;
+    }
+
+    /* end features section */
+
+    /* start download section */
+
+    .download .container {
+        width: 360px;
+        height: fit-content;
+        font-size: 15px;
+        padding-bottom: 30px;
+    }
+    .download .container h2{
+        color: #484872ae;
+    }
+
+    .download .container h2::before {
+        top: 70px;
+        left: 40px;
+    }
+
+    .download .container h2::after {
+        top: 70px;
+        right: 40px;
+    }
+    .download .container .text-p{
+        font-size: 15px;
+    }
+    .download .container .number-p{
+        color:#484872ae ;
+    }
+    .download .container .last-p{
+        font-size: 15px;
+    }
+
+    .download .container button {
+        width: 170px;
+        height: 40px;
+        padding: 0px 0px;
+        font-size: 10px;
+        background-color: #393963ee;
+    }
+    .download .container button:hover{
+        background-color: #61617fee;
+    }
+
+    /* end download section */
+
+    /* start contact section */
+.contact{
+    background-color: #393963ee;
+}
+    .contact .container {
+        width: 360px;
+        font-size: 10px;
+        margin: auto;
+    }
+.send input{
+    background-color: #282848ee;
+}
+.send input:hover{
+    transform: scale(0.9 ,0.9);
+}
+
+    /* end contact section */
+
+}
+
