@@ -411,7 +411,7 @@ textarea:focus {
     }
 
     .home .container {
-        width: 360px;
+        width: 400px;
         font-size: 10px;
         margin: auto;
 
@@ -451,7 +451,7 @@ textarea:focus {
         background-color: #484872ae;
     }
     .features .container {
-        width: 360px;
+        width: 400px;
         height: fit-content;
         font-size: 10px;
         margin: auto;
@@ -485,7 +485,7 @@ textarea:focus {
     /* start download section */
 
     .download .container {
-        width: 360px;
+        width: 400px;
         height: fit-content;
         font-size: 15px;
         padding-bottom: 30px;
@@ -531,7 +531,7 @@ textarea:focus {
     background-color: #393963ee;
 }
     .contact .container {
-        width: 360px;
+        width: 400px;
         font-size: 10px;
         margin: auto;
     }
