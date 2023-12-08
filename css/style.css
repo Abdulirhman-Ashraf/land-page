@@ -402,7 +402,7 @@ textarea:focus {
 
 /* start media mobile */
 
-@media (min-width:480px) and (max-device-width: 640px) 
+@media  (max-device-width: 700px) 
                      {
 
     /* start home section */
