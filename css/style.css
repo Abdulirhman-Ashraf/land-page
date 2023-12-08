@@ -419,7 +419,7 @@ textarea:focus {
 
     .home nav {
         box-shadow: 1px 0px 8px 8px rgb(74, 74, 167);
-        padding: 15px;
+        padding: 5px;
     }
 
     nav a:hover {
@@ -489,6 +489,8 @@ textarea:focus {
         height: fit-content;
         font-size: 15px;
         padding-bottom: 30px;
+            padding-left: 10px;
+
     }
     .download .container h2{
         color: #484872ae;
