@@ -473,7 +473,7 @@ textarea:focus {
 
     .card { 
         font-size: 15px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         transition: .2s;
     }
     .card:hover{
